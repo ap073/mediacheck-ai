@@ -1,0 +1,14 @@
+{
+  "name": "mediacheck-extension",
+  "version": "1.0.0",
+  "description": "MediaCheck AI Chrome Extension Manifest V3",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node --test test/extension.test.js"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.280",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.6.3"
+  }
+}

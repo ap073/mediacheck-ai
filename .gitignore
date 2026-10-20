@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# Temporary uploads & logs
+temp/
+tmp/
+*.log
+mediacheck_*
+uploads/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
